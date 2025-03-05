@@ -1,5 +1,4 @@
-# DESAFIO LATAM
-## _Curso Fullstack Javascript G92_
+## DESAFIO LATAM - _Curso Fullstack Javascript G92_
 ### Modulo 2 - CSS Avanzado
 
 **_Desarrollado por Vladimir Faundez_**

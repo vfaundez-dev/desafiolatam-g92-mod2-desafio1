@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-white: #fff;
+  --color-platinum: #E8EBE4;
+  --color-gray: #BEC1BB;
+  --color-bluebell: #A491D2;
+  --color-soap: #CDC3E6;
+  --color-palelavender: #D4DCFF;
+  --color-darkjungle: #1B1F21;
+  --color-outerspace: #444749;
+  --color-oldsilver: #828485;
+}
+
+aside {
+  width: 300px;
+  height: 100vh;
+  border-right: 1px solid var(--color-gray);
+}
+
+aside .user-profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 25px;
+  border-bottom: 1px solid var(--color-gray);
+}
+
+aside .user-profile .user-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+aside .user-profile .user-data {
+  display: flex;
+  flex-direction: column;
+}
+
+aside .user-profile img {
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+aside .user-profile .user-data .user-name {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+aside .user-profile .user-data .user-status {
+  font-size: 12px;
+  color: var(--color-oldsilver);
+}
+
+aside .user-profile .user-actions {
+  display: flex;
+  gap: 1.2rem;
+}
+
+aside .user-profile .user-actions svg {
+  color: var(--color-oldsilver);
+  font-size: 18px;
+}
+
+aside .chat-access {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 36px 0;
+  border-bottom: 1px solid var(--color-gray);
+}
+
+aside .chat-access .btn-chat {
+  padding: 1rem 3rem;
+  background-color: var(--color-bluebell);
+  color: var(--color-white);
+  font-size: 1rem;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}

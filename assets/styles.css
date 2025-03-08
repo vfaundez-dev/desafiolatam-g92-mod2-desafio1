@@ -60,7 +60,7 @@ aside .user-profile img {
 
 aside .user-profile .user-data .user-name {
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 aside .user-profile .user-data .user-status {
@@ -75,7 +75,7 @@ aside .user-profile .user-actions {
 
 aside .user-profile .user-actions svg {
   color: var(--color-oldsilver);
-  font-size: 18px;
+  font-size: 1.25rem;
   cursor: pointer;
 }
 
@@ -103,10 +103,6 @@ aside .chat-access .btn-chat {
 
 aside .chat-access .btn-chat:hover {
   background-color: var(--color-blue2);
-}
-
-aside .chat-access .btn-chat:focus {
-  background-color: var(--color-gray);
 }
 
 aside .chat-access .btn-chat:active {
